@@ -31,7 +31,7 @@ The Arduino program controls four motors through digital output pins and PWM sig
 ## Code Summary
 - Motor pins are defined for four motors controlling wheels and the gripper.
 - Serial communication is used to receive commands.
-- Based on command, motor pins are set HIGH/LOW and speed is controlled using nalogWrite.
+- Based on command, motor pins are set HIGH/LOW and speed is controlled using AnalogWrite.
 - Feedback messages are sent back via serial to confirm the action.
 
 ## Future Scope
